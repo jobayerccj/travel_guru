@@ -48,8 +48,16 @@ const Login = () => {
         let confirmPassword = document.getElementById("confirmPassword").value;
 
         //validation error for fields
+        if(email =="" || password ==""){
+            alert('Email/Password is empty');
+            return false;
+        }
 
         //confirm password
+        if(password != confirmPassword){
+            alert('Password Mismatch');
+            return false;
+        }
 
         //update display name using form data
 
