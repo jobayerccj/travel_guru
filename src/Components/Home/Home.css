@@ -1,0 +1,34 @@
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#card1 .card-body img{
+    border: 2px solid #FBBC04;
+    border-radius: 20px;
+}
+
+.card-body img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.booking-btn1{
+    background-color: #FBBC04;
+    color: black;
+    border: none;
+}
+
+.booking-btn1:hover{
+    background-color: #FBBC04;
+    color: white;
+    border: none;
+}
+
